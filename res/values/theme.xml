@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#eeff0000</color>
+    <style name="Theme.MyLight" parent="@android:style/Theme.Black">
+        <item name="android:textSize">15sp</item>
+</style>
+</resources>
+

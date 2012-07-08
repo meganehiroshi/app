@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_gravity="center_horizontal"
+	  android:orientation="horizontal"
+	  android:background="@color/secondary"
+	  android:padding="7dip"
+	  
+	  >
+
+ 
+	 	<LinearLayout 
+			android:layout_width="0dip" 
+			android:layout_weight="1"
+			android:layout_height="fill_parent"	
+			android:padding="0dip"
+			> 
+			<Button 
+				android:id="@+id/Button01" 
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:text="Start"
+				android:clickable="true" 
+				></Button>
+
+		</LinearLayout>
+		
+		<TableLayout 
+			android:layout_width="0dip"
+			android:layout_weight="4" 
+			android:layout_height="fill_parent"
+			android:layout_gravity="center"
+			android:stretchColumns="0"
+			android:padding="5dip"
+			android:orientation="vertical"
+			>
+
+		    <TableRow>					
+
+				<LinearLayout
+					android:layout_width="fill_parent"
+	  				android:layout_height="fill_parent"
+	  				android:orientation="vertical"
+	  				android:padding="0dip">
+					<TextView 
+						android:clickable="true"
+						android:id="@+id/TextView_Taskname" 
+						android:layout_width="fill_parent" 
+						android:layout_height="fill_parent"
+						android:textSize = "20sp"						
+						android:maxLines="1"
+						android:text="taskname"
+						></TextView>
+			
+				</LinearLayout>
+
+    		</TableRow>
+		    <TableRow>					
+					<TextView 
+						android:clickable="false"
+						android:id="@+id/TextView_Category" 
+						android:layout_width="wrap_content" 
+						android:layout_height="fill_parent"
+						android:textSize = "13sp"
+						android:textColor ="@color/text_sub"
+						android:text="category"
+						></TextView>	
+			</TableRow>
+
+		    <TableRow>
+		    	<LinearLayout
+		    		android:layout_width="fill_parent"
+	  				android:layout_height="fill_parent"
+	  				android:orientation="horizontal"
+	  				android:padding="0dip"
+	  				>
+					<com.android.TTW.MyChronometer	
+						android:id="@+id/chronometer_id"
+						android:clickable="true"						
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"  
+						android:format="%s"
+						android:gravity="left"
+						android:text="00:00:00"
+						/>	
+				</LinearLayout>		
+							
+	
+    		</TableRow>					
+		</TableLayout>    		
+	
+	</LinearLayout>

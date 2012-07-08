@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:padding="5dip"
+    android:background="@color/primary"
+    >
+   	<TextView  
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:text="グラフ"
+    	android:background="@color/primary"
+    />
+	    
+    <ListView
+	    android:id="@+id/listview_graph"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"    
+	    android:focusable="false"
+		android:focusableInTouchMode="false"
+	    android:background="@color/secondary"
+    />
+    
+	        		
+</LinearLayout>    

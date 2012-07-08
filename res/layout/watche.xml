@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="300dip"
+	  android:layout_height="fill_parent"
+	  android:orientation="horizontal" 
+	  android:scrollbarAlwaysDrawVerticalTrack="true"
+	  android:background="#000077">
+
+ 
+	 	<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:layout_gravity="top|right"> 
+			<Button 
+				android:id="@+id/Button01" 
+				android:layout_width="80dip"
+				android:layout_height="fill_parent"
+				android:text="Start"
+				android:clickable="true" 
+				android:onClick="onClickTimer"></Button>
+		</LinearLayout>
+		
+		<TableLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:background="#007700">
+		    <TableRow>
+					
+				<LinearLayout  
+					android:layout_width="fill_parent" 
+					android:layout_height="fill_parent">		
+		
+						
+					<EditText 
+						android:text="@+id/EditText01" 
+						android:id="@+id/EditText01" 
+						android:layout_width="wrap_content" 
+						android:layout_height="fill_parent"></EditText>
+					<Spinner 
+						android:id="@+id/Spinner01" 
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"></Spinner>
+		
+				</LinearLayout>	
+    		</TableRow>
+		    <TableRow>
+				<LinearLayout  
+					android:layout_width="fill_parent" 
+					android:layout_height="fill_parent">		
+													
+					<Chronometer
+						android:id="@+id/chronometer_id"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="30sp"  
+						android:format="%s"
+						></Chronometer>								
+				</LinearLayout>	
+    		</TableRow>					
+		</TableLayout>    		
+	
+	
+
+	
+	</LinearLayout>

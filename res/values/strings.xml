@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SchedulerEditor!</string>
+    <string name="app_name">タスクたいむウォッチ</string>
+	<string name="app_name2">スケジューラー2</string>
+	<color name="bg_gray">#AAAAAA</color>
+	
+	
+	<string-array name="ctg_spn_list">
+	    <item>定常作業</item>
+	    <item>障害対応</item>
+	    <item>データリカバリ</item>
+	</string-array>
+	
+</resources>

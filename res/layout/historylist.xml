@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" 
+  android:background="@color/primary">
+
+	<TextView  
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="履歴リスト"
+	    android:background="@color/primary"
+	    />
+		    
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+		android:layout_gravity="center"
+		android:padding="10dip"
+		android:background="@color/third"
+	>
+		<TextView  
+			android:id="@+id/monthback" 
+			android:layout_weight="1"
+			android:layout_width="0dip"
+			android:layout_height="fill_parent"
+			android:text="≪"
+			android:clickable="true" 
+			android:onClick="onClickMonthBack"
+			android:gravity="right">
+		</TextView>
+		<TextView  
+			android:id="@+id/month" 
+			android:layout_weight="6"
+			android:layout_width="0dip"
+		    android:layout_height="wrap_content" 
+		    android:text="2012年5月"
+		    android:gravity="center"
+		    />
+		<TextView  
+			android:id="@+id/monthnext" 
+			android:layout_weight="1"
+			android:layout_width="0dip"
+			android:layout_height="fill_parent"
+			android:text="≫"
+			android:clickable="true" 
+			android:onClick="onClickMonthNext"
+			android:gravity="left">
+		</TextView>	
+	    
+	</LinearLayout>
+	     
+    <ListView
+	    android:id="@+id/list_history"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"  
+	    android:clickable="true" 
+	    android:longClickable="true"
+    />
+
+	
+</LinearLayout>

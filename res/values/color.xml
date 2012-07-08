@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<color name="list_bg_default">#008080</color>
+	<color name="list_bg_selected">#a52a2a</color>
+	<color name="list_bg_fotter">#daa520</color>
+	<color name="default_bg">#007070</color>
+	<color name="primary">#2f4f4f</color>
+	<color name="secondary">#007070</color>
+	<color name="third">#808000</color>
+	<color name="text_sub">#b0c4de</color>
+</resources>	

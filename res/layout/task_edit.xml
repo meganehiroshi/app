@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="vertical"
+	  android:background="@color/third"
+	  android:padding="1dip"
+	  >
+
+		<EditText 
+			android:clickable="true"
+			android:id="@+id/EditText_Taskname" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			></EditText>
+
+		<Spinner 
+			android:textSize="15sp"
+			android:id="@+id/Spinner_category" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="right"></Spinner>		
+	</LinearLayout>		

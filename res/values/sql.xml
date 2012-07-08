@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_scheduler">create table scheduler(id integer primary key autoincrement,title text,schedule text,year integer,month integer,day integer,dayOfWeek text,hour integer,minute integer)</string>
+	<string name="app_name3">スケジューラー2</string>
+
+</resources>
